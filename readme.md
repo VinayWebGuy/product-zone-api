@@ -11,20 +11,20 @@ Product-Zone API serves as an endpoint to access product and category informatio
 
 ### API Endpoint
 
-#### Endpoint URL: `/product-zone-api.php`
+#### Endpoint URL: `/api-url`
 
 #### Supported Queries:
 
-- **Find Products:** `/product-zone-api.php?api_key=<YOUR_API_KEY>&find=product`
+- **Find Products:** `/api-url?api_key=<YOUR_API_KEY>&find=product`
   - Returns a JSON array of all products.
 
-- **Find Product by ID:** `/product-zone-api.php?api_key=<YOUR_API_KEY>&find=product&product_id=<PRODUCT_ID>`
+- **Find Product by ID:** `/api-url?api_key=<YOUR_API_KEY>&find=product&product_id=<PRODUCT_ID>`
   - Returns a JSON object with product details based on the provided product ID.
 
-- **Find Categories:** `/product-zone-api.php?api_key=<YOUR_API_KEY>&find=category`
+- **Find Categories:** `/api-url?api_key=<YOUR_API_KEY>&find=category`
   - Returns a JSON array of all categories.
 
-- **Check Total Hits:** `/product-zone-api.php?api_key=<YOUR_API_KEY>&find=hits`
+- **Check Total Hits:** `/api-url?api_key=<YOUR_API_KEY>&find=hits`
   - Returns the total hits count for the API key user.
 
 ### Important Notes:
@@ -40,7 +40,7 @@ Product-Zone API serves as an endpoint to access product and category informatio
 
 ### Endpoint Structure:
 
-/product-zone-api.php
+/api-url
 │
 ├── ?api_key=<YOUR_API_KEY>&find=product
 ├── ?api_key=<YOUR_API_KEY>&find=product&product_id=<PRODUCT_ID>
