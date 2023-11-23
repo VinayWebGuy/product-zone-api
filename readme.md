@@ -47,14 +47,6 @@ Product-Zone API serves as an endpoint to access product and category informatio
 ├── ?api_key=<YOUR_API_KEY>&find=category
 └── ?api_key=<YOUR_API_KEY>&find=hits
 
-
-## Example Usage:
-
-- **Find Products:** `/product-zone-api.php?api_key=your_api_key&find=product`
-- **Find Product by ID:** `/product-zone-api.php?api_key=your_api_key&find=product&product_id=123`
-- **Find Categories:** `/product-zone-api.php?api_key=your_api_key&find=category`
-- **Check Total Hits:** `/product-zone-api.php?api_key=your_api_key&find=hits`
-
 ## Security Note:
 
 - Keep your API keys secure and avoid exposing them in publicly accessible locations.
